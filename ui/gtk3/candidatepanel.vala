@@ -65,7 +65,7 @@ public class CandidatePanel : Gtk.HBox{
 
         m_vbox = new Gtk.VBox(false, 0);
         m_vbox.set_visible(true);
-        pack_start(m_vbox, false, false, 0);
+        pack_start(m_vbox, true, true, 0);
 
         m_toplevel.add(this);
 
